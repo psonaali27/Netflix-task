@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+body{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:black;
+    color:white;
+}
+.all {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/2548691d-4d8c-4d97-b96d-449d3cca5d7e/IN-en-20210823-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  width:100%;
+  padding:20px;
+  background-color: rgba(0,0,0,0.4); 
+  border-bottom:10px solid grey;
+}
+.top{
+    display: flex;
+    gap:500px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-left{
+    color:#e50914;
+    font-weight:bold;
+    font-size:60px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.top-lang{
+    display:flex;
+    gap:50px;
+}
+.lang{
+    font-size:20px;
+}
+.sign{
+    background-color: #e50914;
+    border-radius:2px;
+    padding:5px;
+    font-size:20px;
+}
+.mid-part{
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size:60px;
+    font-weight:700;
+}
+h3{
+    font-size:35px;
+    margin-top: 0px;
+}
+mid-part p{
+    font-size: 25px;
+    font-weight:500;
+    margin-top:0px;
+}
+button{
+    background-color: #e30813;
+    font-size: 20px;
+    padding:20px;
+}
+input{
+    min-width: 500px;;
+}
+.tab{
+    display:flex;
+    flex-direction: row;  
+}
+.media-content p{
+    font-size:28px;
+}
+.media-1{
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+position: relative;
+text-align:left;
+padding:30px;
+align-items: center;
+border-bottom:10px solid grey;
+}
+.img-1{
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index:2;
+}
+.video-1{
+    position:absolute;
+    left:80px;
+    top:95px;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.media-2{
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+position: relative;
+text-align:left;
+padding:30px;
+align-items: center;
+border-bottom:10px solid grey;
+}
+.img-2{
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index:2;
+}
+.video-2{
+    position:absolute;
+    width:80%;
+    left:118px;
+    top:30px;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.media-3{
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+position: relative;
+text-align:left;
+padding:30px;
+align-items: center;
+border-bottom:10px solid grey;
+}
+.last{
+    text-align: center;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:30%;
+    width:500px;
+}
+.options p{
+    background-color:grey;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+    margin:5px;
+}
